@@ -20,8 +20,8 @@
 </head>
 
 <body>
-  <h2 id="header">Chat app</h2>
-  <a href="/">Takaisin kauppaan</a>
+  <h2 id="header">Walden Tinderchat</h2>
+  <a href="/">Takaisin alkuun</a>
   <ul id="messages"></ul>
   <form id="form" action="">
     <input id="input" autocomplete="off" /><button>Send</button>
@@ -37,9 +37,9 @@
     }
 
 
-    var vastaus = window.confirm("Haluatko kirjauttua asiakas numerolla")
+    var vastaus = window.confirm("Haluatko kirjauttua nimellä? Muuten olet anonyymi")
     if (vastaus === true) {
-      var user = window.prompt("Anna asiakasnumero")
+      var user = window.prompt("Anna nimesi")
     }
     else {
       var user = "Anonyymi asiakas"
