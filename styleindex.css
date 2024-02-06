@@ -1,0 +1,7 @@
+body {
+    background-color: black;
+    color: neon-red; /* Note: There is no standard "neon-red" color in CSS, you may need to define your own or use a suitable color code. */
+    font-size: 20px;
+    font-family: Arial, sans-serif; /* You can change the font-family as needed. */
+  }
+  
